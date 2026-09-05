@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VisionReach | Market Expansion & Business Growth</title>
+<meta name="description" content="VisionReach helps businesses enter new markets, build strategic partnerships, and accelerate sustainable growth.">
+<style>
+:root{--navy:#081b35;--navy2:#102b50;--gold:#d6a84f;--cream:#f7f4ed;--text:#172235;--muted:#637086;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.6}
+nav{position:fixed;top:0;width:100%;z-index:10;background:rgba(8,27,53,.96);backdrop-filter:blur(8px);color:white}
+.navin{max-width:1160px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:25px;font-weight:800;letter-spacing:.5px}.logo span{color:var(--gold)}
+nav a{color:#fff;text-decoration:none;margin-left:24px;font-size:14px}.lang{border:1px solid #ffffff55;border-radius:20px;padding:7px 13px;margin-left:18px}
+.hero{min-height:720px;padding:150px 22px 90px;background:linear-gradient(115deg,rgba(8,27,53,.98),rgba(8,27,53,.82)),radial-gradient(circle at 80% 25%,#2f5f88,transparent 40%),linear-gradient(135deg,#07162c,#18395e);color:white}
+.hero-in{max-width:1160px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}.eyebrow{color:var(--gold);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(44px,6vw,72px);line-height:1.05;margin:15px 0 20px;letter-spacing:-2px}h1 span{color:var(--gold)}.hero p{font-size:19px;color:#dbe4ef;max-width:650px}
+.btn{display:inline-block;padding:13px 21px;border-radius:7px;text-decoration:none;font-weight:700;margin:12px 10px 0 0}.primary{background:var(--gold);color:var(--navy)}.outline{border:1px solid #ffffff66;color:white}
+.hero-card{background:#ffffff12;border:1px solid #ffffff25;border-radius:18px;padding:30px;box-shadow:0 20px 70px #0004}.hero-card h3{margin-top:0;color:var(--gold)}
+section{padding:85px 22px}.wrap{max-width:1160px;margin:auto}.section-head{max-width:700px;margin-bottom:40px}.section-head h2{font-size:40px;line-height:1.15;margin:8px 0 12px}.muted{color:var(--muted)}
+.stats{background:var(--cream);padding:28px 22px}.statgrid{max-width:1160px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}.stat strong{font-size:30px;color:var(--navy);display:block}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}.aboutbox{background:var(--navy);color:white;border-radius:18px;padding:40px;min-height:320px;display:flex;flex-direction:column;justify-content:center}.aboutbox .big{font-size:52px;color:var(--gold);font-weight:800}
+.services{background:#f8fafc}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:white;border:1px solid #e5eaf0;border-radius:14px;padding:28px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 14px 35px #0b1f3a12}.icon{font-size:27px;color:var(--gold)}.card h3{margin:12px 0 8px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.step{border-left:3px solid var(--gold);padding:8px 18px}.step b{font-size:12px;color:var(--gold)}
+.cta{background:linear-gradient(120deg,var(--navy),var(--navy2));color:white;text-align:center}.cta h2{font-size:42px;margin:0 0 12px}.cta p{color:#dbe4ef}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:50px}.contactbox{background:var(--cream);padding:35px;border-radius:16px}input,textarea{width:100%;padding:13px;margin:7px 0 12px;border:1px solid #ccd5df;border-radius:7px;font:inherit}textarea{min-height:130px}button{border:0;cursor:pointer;font:inherit}
+footer{background:#061426;color:#cbd5e1;padding:50px 22px}.footergrid{max-width:1160px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px}.footergrid h3{color:white}.footergrid a{color:#cbd5e1;text-decoration:none;display:block;margin:7px 0}.copy{max-width:1160px;margin:35px auto 0;border-top:1px solid #ffffff18;padding-top:18px;font-size:13px}
+.am{display:none}
+@media(max-width:800px){nav .links{display:none}.hero-in,.about,.contact{grid-template-columns:1fr}.statgrid,.cards{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.hero{min-height:auto}.footergrid{grid-template-columns:1fr}h1{font-size:48px}}
+@media(max-width:520px){.statgrid,.cards,.process{grid-template-columns:1fr}.hero{padding-top:125px}section{padding:65px 18px}}
+</style>
+</head>
+<body>
+<nav><div class="navin"><div class="logo">Vision<span>Reach</span></div><div class="links">
+<a href="#about" data-en="About" data-am="ስለ እኛ">About</a><a href="#services" data-en="Services" data-am="አገልግሎቶች">Services</a><a href="#process" data-en="How We Work" data-am="አሰራር">How We Work</a><a href="#contact" data-en="Contact" data-am="ያግኙን">Contact</a><button class="lang" id="lang">አማ</button>
+</div></div></nav>
+
+<header class="hero"><div class="hero-in"><div>
+<div class="eyebrow" data-en="Market Expansion • Business Growth" data-am="የገበያ ማስፋፊያ • የንግድ እድገት">Market Expansion • Business Growth</div>
+<h1 data-en="Reach new markets. <span>Grow with confidence.</span>" data-am="አዳዲስ ገበያዎችን ይድረሱ። <span>በእምነት ያድጉ።</span>">Reach new markets. <span>Grow with confidence.</span></h1>
+<p data-en="VisionReach helps businesses understand new markets, build the right partnerships, and turn expansion opportunities into sustainable growth." data-am="VisionReach ንግዶች አዳዲስ ገበያዎችን እንዲረዱ፣ ትክክለኛ አጋርነቶችን እንዲገነቡ እና የማስፋፊያ እድሎችን ወደ ዘላቂ እድገት እንዲቀይሩ ያግዛል።">VisionReach helps businesses understand new markets, build the right partnerships, and turn expansion opportunities into sustainable growth.</p>
+<a class="btn primary" href="#contact" data-en="Start Your Expansion" data-am="ማስፋፊያዎን ይጀምሩ">Start Your Expansion</a><a class="btn outline" href="#services" data-en="Explore Services" data-am="አገልግሎቶችን ይመልከቱ">Explore Services</a>
+</div><div class="hero-card"><h3 data-en="Your growth, our reach." data-am="የእርስዎ እድገት፣ የእኛ ማስፋፊያ።">Your growth, our reach.</h3><p data-en="From market intelligence to local partnerships and go-to-market execution, we help you move from opportunity to action." data-am="ከገበያ መረጃ እስከ አጋርነት እና የገበያ መግቢያ አፈጻጸም ድረስ፣ ከእድል ወደ ተግባር እንዲሄዱ እናግዛለን።">From market intelligence to local partnerships and go-to-market execution, we help you move from opportunity to action.</p></div></div></header>
+
+<div class="stats"><div class="statgrid"><div class="stat"><strong>01</strong>Market Strategy</div><div class="stat"><strong>02</strong>Local Insight</div><div class="stat"><strong>03</strong>Partnerships</div><div class="stat"><strong>04</strong>Execution</div></div></div>
+
+<section id="about"><div class="wrap about"><div><div class="eyebrow">Why VisionReach</div><div class="section-head"><h2 data-en="Expansion is more than entering a market." data-am="ማስፋፋት ገበያ ውስጥ ከመግባት በላይ ነው።">Expansion is more than entering a market.</h2></div><p class="muted" data-en="We connect strategic thinking with practical local execution. Our approach helps companies identify attractive opportunities, understand customers and competitors, build relationships, and launch with a clear path to growth." data-am="ስትራቴጂያዊ አስተሳሰብን ከተግባራዊ የአካባቢ አፈጻጸም ጋር እናገናኛለን። ኩባንያዎች ትርፋማ እድሎችን እንዲለዩ፣ ደንበኞችንና ተወዳዳሪዎችን እንዲረዱ እና በግልጽ የእድገት እቅድ እንዲጀምሩ እናግዛለን።">We connect strategic thinking with practical local execution. Our approach helps companies identify attractive opportunities, understand customers and competitors, build relationships, and launch with a clear path to growth.</p></div><div class="aboutbox"><div class="big">Vision → Reach</div><p>See the opportunity. Build the connection. Make the move.</p></div></div></section>
+
+<section id="services" class="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What We Do</div><h2>Services built for market expansion</h2><p class="muted">Practical support for businesses ready to enter, test, and grow in new markets.</p></div><div class="cards">
+<div class="card"><div class="icon">◎</div><h3>Market Entry Strategy</h3><p class="muted">Assess markets, define entry models, prioritize opportunities, and build a practical expansion roadmap.</p></div>
+<div class="card"><div class="icon">⌁</div><h3>Market Research</h3><p class="muted">Customer, competitor, channel, pricing, and market intelligence to support better decisions.</p></div>
+<div class="card"><div class="icon">◇</div><h3>Business Partnerships</h3><p class="muted">Identify potential partners and help structure relationships that accelerate market access.</p></div>
+<div class="card"><div class="icon">↗</div><h3>Go-to-Market</h3><p class="muted">Translate strategy into launch plans, positioning, channels, and measurable commercial actions.</p></div>
+<div class="card"><div class="icon">◌</div><h3>Business Development</h3><p class="muted">Build qualified opportunities, strengthen commercial relationships, and support sustainable growth.</p></div>
+<div class="card"><div class="icon">✦</div><h3>Growth Advisory</h3><p class="muted">Independent strategic guidance for leaders making important expansion and growth decisions.</p></div>
+</div></div></section>
+
+<section id="process"><div class="wrap"><div class="section-head"><div class="eyebrow">Our Approach</div><h2>A clear path from vision to reach</h2></div><div class="process"><div class="step"><b>01 — DISCOVER</b><h3>Understand</h3><p class="muted">Clarify goals, market needs, and expansion questions.</p></div><div class="step"><b>02 — ANALYZE</b><h3>Assess</h3><p class="muted">Research the market, customers, competition, and risks.</p></div><div class="step"><b>03 — CONNECT</b><h3>Build</h3><p class="muted">Develop channels, partnerships, and market relationships.</p></div><div class="step"><b>04 — GROW</b><h3>Execute</h3><p class="muted">Launch, measure, learn, and scale what works.</p></div></div></div></section>
+
+<section class="cta"><div class="wrap"><h2>Ready to reach your next market?</h2><p>Let's turn your expansion ambition into a practical growth plan.</p><a class="btn primary" href="mailto:nebiyusf@gmail.com">Talk to VisionReach</a></div></section>
+
+<section id="contact"><div class="wrap contact"><div><div class="eyebrow">Contact</div><h2>Let's discuss your next opportunity.</h2><p class="muted">Tell us where you want to grow and what you want to achieve. We'll start with the opportunity and work toward the right market strategy.</p><p><strong>Email</strong><br><a href="mailto:nebiyusf@gmail.com">nebiyusf@gmail.com</a></p></div><div class="contactbox"><form action="mailto:nebiyusf@gmail.com" method="post" enctype="text/plain"><input name="name" placeholder="Your name" required><input name="email" type="email" placeholder="Your email" required><input name="company" placeholder="Company"><textarea name="message" placeholder="Tell us about your expansion opportunity"></textarea><button class="btn primary" type="submit">Send Inquiry</button></form></div></div></section>
+
+<footer><div class="footergrid"><div><div class="logo">Vision<span>Reach</span></div><p>Market expansion and business growth advisory.</p></div><div><h3>Company</h3><a href="#about">About</a><a href="#services">Services</a><a href="#process">How We Work</a></div><div><h3>Contact</h3><a href="mailto:nebiyusf@gmail.com">nebiyusf@gmail.com</a><a href="#contact">Start a conversation</a></div></div><div class="copy">© 2026 VisionReach. All rights reserved.</div></footer>
+
+<script>
+let am=false;const btn=document.getElementById('lang');
+btn.onclick=()=>{am=!am;document.documentElement.lang=am?'am':'en';btn.textContent=am?'EN':'አማ';document.querySelectorAll('[data-en]').forEach(e=>e.innerHTML=am?e.dataset.am:e.dataset.en)}
+</script>
+</body>
+</html>
